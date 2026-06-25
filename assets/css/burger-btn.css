@@ -1,5 +1,5 @@
 .burger-btn {
-    display: block;
+    display: none;
     position: absolute;
 
     padding: 0;
@@ -61,9 +61,9 @@
     }
 }
 
-@media (max-width: 2000px){
+@media (max-width: 768px){
     .burger-btn{
-        display: none;
+        display: block;
     }
 }
 
