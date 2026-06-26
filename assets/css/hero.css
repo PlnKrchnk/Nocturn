@@ -97,8 +97,11 @@
         justify-content: center;
     }
 
-    .first_hero-container,
-    .text_hero-container,
+    .text_hero-container{
+        display: none;
+    }
+
+    .first_hero-container,    
     .second_hero-container,
     .text_hero-container-mobile{
         display: flex;
@@ -153,7 +156,6 @@
     .first_hero-text,
     .paragraph_hero-text,
     .paragraph_hero-text-mobile{
-        border-bottom: 2px solid rgba(0, 0, 0, 0.2);
         padding-bottom: 2rem;
 
         text-shadow:
